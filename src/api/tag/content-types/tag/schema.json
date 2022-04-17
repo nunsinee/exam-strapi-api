@@ -12,14 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "Title": {
       "type": "string",
       "required": true,
       "unique": true
     },
     "Slug": {
       "type": "uid",
-      "targetField": "Name",
       "required": true
     }
   }

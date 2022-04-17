@@ -67,10 +67,11 @@
       "targetField": "Title",
       "required": true
     },
-    "enquiries": {
+    "enquiry": {
       "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::enquiry.enquiry"
+      "relation": "manyToOne",
+      "target": "api::enquiry.enquiry",
+      "inversedBy": "hotels"
     }
   }
 }

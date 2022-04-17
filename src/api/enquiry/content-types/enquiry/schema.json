@@ -38,10 +38,11 @@
     "Message": {
       "type": "text"
     },
-    "hotel": {
+    "hotels": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::hotel.hotel"
+      "relation": "oneToMany",
+      "target": "api::hotel.hotel",
+      "mappedBy": "enquiry"
     }
   }
 }
