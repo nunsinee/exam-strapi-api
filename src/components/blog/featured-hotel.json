@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blog_featured_hotels",
+  "info": {
+    "displayName": "FeaturedHotel",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hotels": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::hotel.hotel"
+    }
+  }
+}

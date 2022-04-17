@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_blog_carousels",
+  "info": {
+    "displayName": "Carousel",
+    "icon": "camera-retro",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hotels": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::hotel.hotel"
+    }
+  }
+}
